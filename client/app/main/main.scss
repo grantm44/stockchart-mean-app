@@ -1,0 +1,81 @@
+.thing-form {
+  margin: 20px 0;
+}
+
+#banner {
+  border-bottom: none;
+  margin-top: -20px;
+}
+
+#banner h1 {
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.hero-unit {
+  position: relative;
+  padding: 30px 15px;
+  color: #F5F5F5;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  background: #4393B9;
+}
+
+.navbar-text {
+  margin-left: 15px;
+}
+
+section{
+  background-color: #2a2a2b;
+}
+
+#chart2{
+  margin: 0 auto;
+  display: block;
+  min-width: 1140px;
+  background-color: #2a2a2b;
+}
+
+.container{
+
+  .stock-block{
+    padding: 5px;
+    margin-left: 19px;
+    margin-right: 19px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    height: 130px;
+    border: 1px solid #bbb;
+    border-left-width: 5px;
+
+    &:first-child, &:nth-child(4),  &:nth-child(3n+4){
+      margin-left: 0;
+    }
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+
+    &:nth-child(2), &:nth-child(3n+2) {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
+    &.col-md-4 {
+      width: 31%;
+    }
+
+    &:hover:not(.stock-new){
+      border-color: tomato;
+    }
+
+    &.stock-new{
+    border-color: #5cb85c;
+  }
+
+  }
+
+
+
+}
